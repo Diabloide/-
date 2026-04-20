@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заповедники</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="Картинки/favicon.ico" type="image/x-icon">
+    <style>
+        .karta {
+            width:60%;
+            border-radius: 50%;
+            box-shadow:0 0 10px rgba(0, 0, 0, 0.9);
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+    </style>
+    <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+body {
+  background-image: url("Картинки/Главный\ экран.jpg");
+  background-size: cover;        /* растянуть на весь экран */
+  background-repeat: no-repeat;  /* убрать повторение */
+  background-position: center;   /* по центру */
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.logo-wrap {
+    margin-top: -80px;
+}
+.glass-card {
+    width: 600px;
+    padding: 40px;
+
+    border-radius: 25px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255,255,255,0.3);
+
+    box-shadow: 
+        0 10px 40px rgba(0,0,0,0.2),
+        inset 0 1px 0 rgba(255,255,255,0.3);
+        margin-bottom: 100px;
+}
+.btn-primary {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,255,0.3);
+}
+
+.btn-dark {
+    border-radius: 12px;
+}
+h1 {
+    font-size: 32px;
+    margin-top: 10px;
+    color: #2f3e2f;
+}
+
+.subtitle {
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 20px;
+}
+span {
+    font-size: 1.1rem;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    border: 6px solid rgba(255,255,255,0.6);
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin: 20px 0;
+    color: #2f3e2f;
+}
+.btn-main {
+    display: inline-block;
+    padding: 12px 30px;
+
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+
+    background: linear-gradient(180deg, #4da6ff, #2b6edc);
+
+    box-shadow: 
+        0 5px 15px rgba(0,0,255,0.3),
+        inset 0 1px 0 rgba(255,255,255,0.5);
+
+    transition: 0.2s;
+}
+
+.btn-main:hover {
+    transform: translateY(-2px);
+}
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 25px;
+
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+
+    background: linear-gradient(180deg, #555, #2b2b2b);
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+</style>
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+    <div class="glass-card text-center">
+
+    <div class="logo-wrap">
+        <img src="Картинки/лис.webp" class="logo">
+    </div>
+
+    <h1>Виртуальный Заповедник</h1>
+    <p class="subtitle">Исследуй 12 заповедников Приднестровья</p>
+
+    <div class="features">
+        <span>🍃 12 заповедников</span>
+        <span>🌲 Уникальная природа</span>
+    </div>
+
+    <div class="buttons">
+        <a href="nachalo.html" class="btn-main">🌍 НАЧАТЬ</a>
+        <a href="https://eco-tiras.org/docs/RDB-pmr.pdf" class="btn-secondary" target="_blank">📕 Красная книга ПМР</a>
+    </div>
+
+</div>
+</body>
+</html>
